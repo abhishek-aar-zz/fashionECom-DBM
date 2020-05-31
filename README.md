@@ -1,2 +1,4 @@
 # fashionECom-DBM
-Yeah! Project title goes as-- Fashion E Commerce Database Management --
+Yeah! Project title is as-- Fashion E Commerce Database Management --
+
+For the report/readme: open report.pdf in the rep
