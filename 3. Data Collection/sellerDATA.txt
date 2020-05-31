@@ -1,0 +1,7 @@
+(8122, 'Appario Retail' , 'AZ'),
+(8264, 'Cloudtail' , 'GA'),
+(6406, 'STPL' , 'OK'),
+(3954, 'Electrama' , 'AL'),
+(2928, 'Darshita' , 'MA'),
+(2807, 'BasicDeal' , 'KY'),
+(4496, 'weguarantee' , 'CO'),

@@ -1,0 +1,21 @@
+T -> totally participatiing entity
+E -> any entity (i.e. general entity)
+N -> entity with N side (i.e. N{any, 1}--<relation>--{any, n}A) or (i.e. N{n}--<relation>--{1}A)
+
+binary 1:1 relation
+Put [(PK of E) in T] as FK
+ - OR - Include a FK in totally participating entity
+
+binary 1:N relation
+Put [(PK of E) in N] as FK
+ - OR - Include a FK in N-side entity (not the n-side in min-max).
+Include simple attributes of relation type in the same.
+
+binary M:N relation
+Create a new relation R = {foriegnKeyConvert(primaryKey(Entity1)), foriegnKeyConvert(primaryKey(Entity2)), simple attributes...(if any)}
+Primary key = foriegnKeyConvert(primaryKey(Entity1)) + foriegnKeyConvert(primaryKey(Entity2))
+
+multivalued attributes
+A->multivalued attribute
+Create a new relation R = {A, foriegnKeyConvert(primaryKey(Entity which has A))}
+Primary Key = A + foriegnKeyConvert(primaryKey(Entity which has A))
